@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "note": "General first-aid guidance for bystanders. Not a diagnosis. India emergency numbers: 112 (all emergencies), 108 (ambulance), 101 (fire), 100 (police).",
+  "protocols": [
+    {
+      "id": "scene",
+      "title": "Make the scene safe",
+      "chip": "Scene safety",
+      "urgent": false,
+      "quick": true,
+      "keywords": [
+        "scene",
+        "safe",
+        "danger",
+        "traffic",
+        "road",
+        "crash",
+        "accident",
+        "what do i do",
+        "what to do",
+        "help",
+        "kya karu",
+        "kya karen",
+        "मदद",
+        "क्या करूं"
+      ],
+      "steps": [
+        "Stay out of traffic. Switch on hazard lights.",
+        "Switch off damaged vehicle engines. No smoking or flames.",
+        "Send someone to wave traffic down or place a warning.",
+        "Do not move injured people unless fire or danger is near.",
+        "Keep your phone free for the ambulance call-back."
+      ],
+      "dont": [
+        "Don't remove a helmet.",
+        "Don't give food or water."
+      ]
+    },
+    {
+      "id": "cpr",
+      "title": "Not breathing - start CPR",
+      "chip": "Not breathing",
+      "urgent": true,
+      "quick": true,
+      "keywords": [
+        "not breathing",
+        "stopped breathing",
+        "no breathing",
+        "no pulse",
+        "cardiac arrest",
+        "heart stopped",
+        "heart attack collapse",
+        "cpr",
+        "chest compression",
+        "dead",
+        "saans nahi",
+        "saans band",
+        "सांस नहीं",
+        "सांस बंद",
+        "सीपीआर"
+      ],
+      "steps": [
+        "Call 112 or 108 now. Put the phone on speaker.",
+        "Lay the person flat on their back on a hard surface.",
+        "Heel of one hand on the centre of the chest, other hand on top.",
+        "Push hard and fast: 5-6 cm deep, 100-120 times a minute.",
+        "Do not stop until the ambulance team or an AED takes over.",
+        "If an AED is nearby, send someone to get it and follow its voice."
+      ],
+      "dont": [
+        "Don't stop to check the pulse again and again."
+      ]
+    },
+    {
+      "id": "unconscious",
+      "title": "Unconscious person",
+      "chip": "Unconscious",
+      "urgent": true,
+      "quick": true,
+      "keywords": [
+        "unconscious",
+        "unresponsive",
+        "not responding",
+        "passed out",
+        "fainted",
+        "faint",
+        "collapsed",
+        "collapse",
+        "not waking",
+        "behosh",
+        "बेहोश",
+        "होश नहीं"
+      ],
+      "steps": [
+        "Call 112 or 108 now.",
+        "Tap shoulders and shout. No response? Check breathing for 10 seconds.",
+        "Breathing normally: roll onto their side, tilt head back gently.",
+        "Not breathing normally: start chest compressions (tap 'Not breathing').",
+        "Stay with them and watch breathing until help arrives."
+      ],
+      "dont": [
+        "Don't give water, food or medicine.",
+        "Don't move them if neck injury is possible - unless breathing is blocked."
+      ]
+    },
+    {
+      "id": "bleeding",
+      "title": "Heavy bleeding",
+      "chip": "Heavy bleeding",
+      "urgent": true,
+      "quick": true,
+      "keywords": [
+        "bleeding",
+        "bleed",
+        "blood",
+        "bleeding a lot",
+        "cut deep",
+        "deep cut",
+        "gash",
+        "stab",
+        "wound",
+        "khoon",
+        "खून",
+        "रक्तस्राव",
+        "खून बह"
+      ],
+      "steps": [
+        "Press firmly on the wound with a clean cloth. Use your hand if you have no cloth.",
+        "Keep pressing hard. Do not lift to look.",
+        "Blood soaks through? Add more cloth on top and keep pressing.",
+        "Raise the injured arm or leg if no broken bone is suspected.",
+        "Lay the person down and keep them warm."
+      ],
+      "dont": [
+        "Don't remove cloth that is stuck or soaked - add more on top.",
+        "Don't pull out objects stuck in the wound."
+      ]
+    },
+    {
+      "id": "choking",
+      "title": "Choking",
+      "chip": "Choking",
+      "urgent": true,
+      "quick": true,
+      "keywords": [
+        "choking",
+        "choke",
+        "something stuck in throat",
+        "cannot speak",
+        "can't speak",
+        "can't breathe food",
+        "दम घुट",
+        "गले में अटक"
+      ],
+      "steps": [
+        "Ask: 'Are you choking?' If they cannot speak or cough, act now.",
+        "Lean them forward. Give 5 firm back blows between the shoulder blades.",
+        "Then 5 abdominal thrusts: fist above the navel, pull in and up.",
+        "Repeat 5 and 5 until it comes out or they collapse.",
+        "If they collapse: call 112 and start CPR."
+      ],
+      "dont": [
+        "Don't do blind finger sweeps.",
+        "Infants: back blows and chest thrusts only - no belly thrusts."
+      ]
+    },
+    {
+      "id": "burn",
+      "title": "Burns",
+      "chip": "Burn",
+      "urgent": true,
+      "quick": true,
+      "keywords": [
+        "burn",
+        "burnt",
+        "burned",
+        "fire",
+        "scald",
+        "boiling",
+        "acid",
+        "chemical",
+        "jal gaya",
+        "jal gayi",
+        "aag",
+        "जल",
+        "आग",
+        "जला"
+      ],
+      "steps": [
+        "Move away from fire or heat. Stop the burning: smother flames with a blanket.",
+        "Cool the burn under cool running water for 20 minutes.",
+        "Take off rings, watches and loose clothing near it - not if stuck to skin.",
+        "Cover loosely with clean cling film or a non-fluffy cloth.",
+        "Chemical burn: keep rinsing with water until help arrives."
+      ],
+      "dont": [
+        "Don't use ice, butter, toothpaste or oil.",
+        "Don't burst blisters."
+      ]
+    },
+    {
+      "id": "fracture",
+      "title": "Broken bone",
+      "chip": "Broken bone",
+      "urgent": false,
+      "quick": true,
+      "keywords": [
+        "fracture",
+        "broken bone",
+        "broke",
+        "broken arm",
+        "broken leg",
+        "bone",
+        "deformed",
+        "limb bent",
+        "can't move leg",
+        "haddi",
+        "हड्डी",
+        "फ्रैक्चर",
+        "टूट"
+      ],
+      "steps": [
+        "Keep the person still. Support the injured part in the position found.",
+        "Splint with a rolled newspaper or stick, padded with cloth, if help is delayed.",
+        "Bone through the skin: cover with a clean cloth. Press around it, not on it.",
+        "Place a wrapped ice pack on the area. Never ice directly on skin.",
+        "Watch for pale, cold or numb fingers or toes."
+      ],
+      "dont": [
+        "Don't straighten the limb.",
+        "Don't let them eat or drink - they may need surgery."
+      ]
+    },
+    {
+      "id": "head_spine",
+      "title": "Head, neck or back injury",
+      "chip": "Head / neck",
+      "urgent": true,
+      "quick": true,
+      "keywords": [
+        "head injury",
+        "head",
+        "neck",
+        "spine",
+        "back injury",
+        "skull",
+        "concussion",
+        "vomiting after",
+        "confused",
+        "dizzy",
+        "helmet",
+        "sir mein chot",
+        "सिर",
+        "गर्दन",
+        "रीढ़"
+      ],
+      "steps": [
+        "Call 112 or 108. Tell them it is a head, neck or spine injury.",
+        "Keep the person completely still. Hold their head steady with both hands.",
+        "Tell them not to move or shake their head.",
+        "Watch breathing and responsiveness. Be ready to start CPR.",
+        "Bleeding from the scalp: press gently around the wound."
+      ],
+      "dont": [
+        "Don't move them unless fire or danger is near.",
+        "Don't remove a helmet."
+      ]
+    },
+    {
+      "id": "chest",
+      "title": "Chest pain or trouble breathing",
+      "chip": "Chest pain",
+      "urgent": true,
+      "quick": true,
+      "keywords": [
+        "chest pain",
+        "chest",
+        "heart attack",
+        "breathless",
+        "breathing difficulty",
+        "difficulty breathing",
+        "short of breath",
+        "can't breathe",
+        "cannot breathe",
+        "gasping",
+        "seene mein dard",
+        "saans phool",
+        "सीने",
+        "सांस फूल",
+        "सांस लेने"
+      ],
+      "steps": [
+        "Call 112 or 108 now.",
+        "Sit them down in the position that makes breathing easiest. Loosen tight clothes.",
+        "Keep them calm and still. Do not let them walk.",
+        "Pain is NOT from an injury and they are awake, not allergic: they may chew one 300 mg aspirin.",
+        "If they collapse and stop breathing: start CPR."
+      ],
+      "dont": [
+        "Don't give aspirin if there is bleeding or an injury.",
+        "Don't give food or drink."
+      ]
+    },
+    {
+      "id": "shock",
+      "title": "Shock (pale, cold, clammy)",
+      "chip": "Shock",
+      "urgent": true,
+      "quick": false,
+      "keywords": [
+        "shock",
+        "pale",
+        "cold and sweaty",
+        "clammy",
+        "weak pulse",
+        "shivering",
+        "lightheaded",
+        "ghabra",
+        "घबरा",
+        "पसीना"
+      ],
+      "steps": [
+        "Call 112 or 108.",
+        "Lay them down. Raise legs about 30 cm - not if head, spine or leg is injured.",
+        "Cover with a blanket or jacket. Keep them warm.",
+        "Stop any visible bleeding by pressing on it.",
+        "Talk calmly. Keep checking breathing."
+      ],
+      "dont": [
+        "Don't give food or drink.",
+        "Don't let them sit up or walk."
+      ]
+    },
+    {
+      "id": "seizure",
+      "title": "Seizure / fits",
+      "chip": "Seizure",
+      "urgent": true,
+      "quick": false,
+      "keywords": [
+        "seizure",
+        "fits",
+        "convulsion",
+        "epilepsy",
+        "shaking uncontrollably",
+        "mirgi",
+        "दौरा",
+        "मिर्गी"
+      ],
+      "steps": [
+        "Clear hard objects away. Put something soft under their head.",
+        "Note the time. Loosen tight clothing around the neck.",
+        "Let it run its course. Stay with them.",
+        "When shaking stops, roll them onto their side.",
+        "Call 112 if it lasts over 5 minutes, repeats, or they are injured or pregnant."
+      ],
+      "dont": [
+        "Don't hold them down.",
+        "Don't put anything in their mouth."
+      ]
+    },
+    {
+      "id": "electric",
+      "title": "Electric shock",
+      "chip": "Electric shock",
+      "urgent": true,
+      "quick": false,
+      "keywords": [
+        "electric",
+        "electrocuted",
+        "shock from",
+        "current",
+        "live wire",
+        "bijli",
+        "बिजली",
+        "करंट"
+      ],
+      "steps": [
+        "Do NOT touch them while they may be live.",
+        "Switch off the power at the main switch if you can.",
+        "Otherwise push the wire away with a dry wooden stick or dry plastic.",
+        "Call 112 or 108. Check breathing. Start CPR if needed.",
+        "Cover any burns loosely with a clean cloth."
+      ],
+      "dont": [
+        "Don't use anything wet or metal.",
+        "Don't go near high-voltage lines - wait for the power company."
+      ]
+    },
+    {
+      "id": "eye",
+      "title": "Eye injury",
+      "chip": "Eye injury",
+      "urgent": false,
+      "quick": false,
+      "keywords": [
+        "eye",
+        "eyes",
+        "aankh",
+        "आंख",
+        "आँख",
+        "something in eye"
+      ],
+      "steps": [
+        "Don't rub the eye.",
+        "Chemical splash: rinse with clean running water for 15 minutes.",
+        "Object stuck in the eye: leave it. Cover loosely with a clean cup or pad.",
+        "Cover the other eye too to limit movement.",
+        "Get medical help."
+      ],
+      "dont": [
+        "Don't press on the eye.",
+        "Don't pull out stuck objects."
+      ]
+    },
+    {
+      "id": "minor_cut",
+      "title": "Minor cut or scrape",
+      "chip": "Cut / scrape",
+      "urgent": false,
+      "quick": true,
+      "minor": true,
+      "keywords": [
+        "small cut",
+        "minor cut",
+        "scrape",
+        "scratch",
+        "graze",
+        "abrasion",
+        "cut finger",
+        "kat gaya",
+        "छिल",
+        "खरोंच",
+        "मामूली"
+      ],
+      "steps": [
+        "Wash your hands. Press a clean cloth on the cut for a few minutes to stop bleeding.",
+        "Rinse the wound under clean running water. Remove loose dirt.",
+        "Apply antiseptic and cover with a clean dressing.",
+        "Change the dressing daily. Watch for redness, pus, swelling or fever.",
+        "Ask a doctor about a tetanus shot if you haven't had one in 5-10 years."
+      ],
+      "dont": [
+        "Don't use turmeric, soil or ash on the wound.",
+        "Don't keep pressing a bleed that won't stop - get help."
+      ]
+    },
+    {
+      "id": "minor_sprain",
+      "title": "Bruise or sprain",
+      "chip": "Bruise / sprain",
+      "urgent": false,
+      "quick": true,
+      "minor": true,
+      "keywords": [
+        "bruise",
+        "sprain",
+        "twisted",
+        "swelling",
+        "swollen",
+        "pulled muscle",
+        "strain",
+        "ankle",
+        "wrist",
+        "moch",
+        "मोच",
+        "सूजन"
+      ],
+      "steps": [
+        "Rest the area. Stop using it.",
+        "Wrapped ice pack for 15-20 minutes, every 2-3 hours.",
+        "Snug (not tight) bandage for support.",
+        "Raise the limb above heart level when resting.",
+        "See a doctor if you can't put weight on it, it looks bent, or fingers or toes go numb."
+      ],
+      "dont": [
+        "Don't put ice directly on skin.",
+        "Don't massage a fresh injury."
+      ]
+    },
+    {
+      "id": "minor_nose",
+      "title": "Nosebleed",
+      "chip": "Nosebleed",
+      "urgent": false,
+      "quick": false,
+      "minor": true,
+      "keywords": [
+        "nosebleed",
+        "nose bleed",
+        "nose bleeding",
+        "bleeding nose",
+        "naak se khoon",
+        "नाक से खून"
+      ],
+      "steps": [
+        "Sit up and lean forward.",
+        "Pinch the soft part of the nose firmly for 10 minutes without letting go.",
+        "Breathe through your mouth. Spit out any blood.",
+        "Still bleeding after 20 minutes, or it followed a hit to the head: go to a hospital."
+      ],
+      "dont": [
+        "Don't tilt the head back.",
+        "Don't blow your nose for several hours."
+      ]
+    },
+    {
+      "id": "minor_burn",
+      "title": "Small minor burn",
+      "chip": "Small burn",
+      "urgent": false,
+      "quick": false,
+      "minor": true,
+      "keywords": [
+        "small burn",
+        "minor burn",
+        "mild burn",
+        "hot water splash",
+        "touched hot",
+        "red skin from heat"
+      ],
+      "steps": [
+        "Cool under cool running water for 20 minutes.",
+        "Remove rings or watches nearby before it swells.",
+        "Cover loosely with clean cling film or a non-stick dressing.",
+        "Go to a hospital if bigger than your palm, on the face, hands or joints, or blistering badly."
+      ],
+      "dont": [
+        "Don't use ice, butter or toothpaste.",
+        "Don't burst blisters."
+      ]
+    }
+  ]
+}
