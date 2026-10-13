@@ -109,7 +109,7 @@ RescueNet/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/RescueNet.git
+git clone https://github.com/AryanSoni-debug/RescueNet-Major.git
 cd RescueNet
 ```
 
